@@ -4,6 +4,12 @@ channels:
 dependencies:
   - cmake
   - python=3.8
+  - pip
+  # SCons 3.0.1 still imports distutils.msvccompiler during installation.
+  - setuptools=59.8.0
+  # makeinfo and gperf are needed by the riscv-gnu-toolchain build (no root required).
+  - conda-forge::texinfo
+  - conda-forge::gperf
   - pip:
     - pyyaml==6.0
     - scons==3.0.1

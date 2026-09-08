@@ -48,7 +48,9 @@ dsa-llvm-project: chipyard dsa-scheduler
         -DLLVM_BUILD_TESTS=False -DLLVM_TARGETS_TO_BUILD="RISCV"        \
         -DLLVM_DEFAULT_TARGET_TRIPLE="riscv64-unknown-linux-gnu"        \
         -DCMAKE_CROSSCOMPILING=True -DLLVM_ENABLE_RTTI=ON               \
-        -DLLVM_ENABLE_PROJECTS="clang" ../llvm
+        -DLLVM_ENABLE_PROJECTS="clang"                                  \
+        $(if $(CONDA_PREFIX),-DCMAKE_IGNORE_PATH="$(CONDA_PREFIX)/lib;$(CONDA_PREFIX)/include",) \
+        ../llvm
 	make -C $@/build install -j$$((`nproc`))
 
 clean-llvm: clean-scheduler
@@ -57,7 +59,7 @@ clean-llvm: clean-scheduler
 # Gem5 simulator
 .PHONY: dsa-gem5
 dsa-gem5: chipyard dsa-scheduler
-	source chipyard/env.sh && cd $@ && scons build/RISCV/gem5.opt build/RISCV/gem5.debug -j`nproc`
+	source chipyard/env.sh && cd $@ && scons PYTHON_CONFIG=python3-config build/RISCV/gem5.opt build/RISCV/gem5.debug -j`nproc`
 
 clean-gem5: clean-scheduler
 	rm -rf dsa-gem5/build

@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR="$( cd "$( dirname "$0" )" >/dev/null 2>&1 && pwd )"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]:-$0}" )" >/dev/null 2>&1 && pwd )"
 export MAKEFLAGS="-j$(($(nproc) - 2))"
 
 # Make sure conda is installed
@@ -36,14 +36,12 @@ else
   export PATH=$SS/scripts:$PATH
   export LD_LIBRARY_PATH=$SS_TOOLS/lib64:$SS_TOOLS/lib:$SS/dsa-scheduler/3rd-party/libtorch/lib/${LD_LIBRARY_PATH:+":${LD_LIBRARY_PATH}"}
 
-  find_in_conda_env(){
-      conda env list | grep "${@}" >/dev/null 2>/dev/null
-  }
-  if ! find_in_conda_env ".*ss-stack.*" ; then
-  	echo "ss-stack environment not found"
-	conda env create -f $SS/ss-stack-conda-env.yml 
+  SS_CONDA_ENV="$SS_TOOLS/conda-envs/ss-stack"
+  if [ ! -d "$SS_CONDA_ENV/conda-meta" ]; then
+    echo "ss-stack environment not found"
+    conda env create --prefix "$SS_CONDA_ENV" -f "$SS/ss-stack-conda-env.yml"
   fi
-  conda activate ss-stack
+  conda activate "$SS_CONDA_ENV"
 
   export LD_LIBRARY_PATH=${CONDA_PREFIX}/lib:${LD_LIBRARY_PATH}
 
