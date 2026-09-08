@@ -9,7 +9,7 @@
 	url = https://github.com/polarbearsrock/dsa-scheduler.git
 [submodule "chipyard"]
 	path = chipyard
-	url = https://github.com/polarbearsrock/chipyard.git
+	url = https://github.com/polarbearsrock/polyarch-chipyard.git
 [submodule "dsa-gem5"]
 	path = dsa-gem5
 	url = https://github.com/polyarch/dsa-gem5
