@@ -180,7 +180,7 @@ def adg_vis(filename, graph_name):
             net.add_edge(node, name + '.' + str(connectId), hidden=True)
             net.add_edge(name + '.' + str(connectId), node, hidden=True)
     
-    net.show(graph_name + '.html')
+    net.show(graph_name + '.html', notebook=False)
 
     print('Finished HTML: ' + graph_name)
     

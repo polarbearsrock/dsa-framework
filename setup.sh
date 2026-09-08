@@ -34,7 +34,9 @@ else
 
   echo add "$"SS_TOOLS/lib to "$"LD_LIBRARY_PATH
   export PATH=$SS/scripts:$PATH
-  export LD_LIBRARY_PATH=$SS_TOOLS/lib64:$SS_TOOLS/lib:$SS/dsa-scheduler/3rd-party/libtorch/lib/${LD_LIBRARY_PATH:+":${LD_LIBRARY_PATH}"}
+  # The scheduler binaries carry an RPATH for their bundled libtorch, so it is
+  # deliberately not on LD_LIBRARY_PATH (it would shadow a Python torch install).
+  export LD_LIBRARY_PATH=$SS_TOOLS/lib64:$SS_TOOLS/lib${LD_LIBRARY_PATH:+":${LD_LIBRARY_PATH}"}
 
   SS_CONDA_ENV="$SS_TOOLS/conda-envs/ss-stack"
   if [ ! -d "$SS_CONDA_ENV/conda-meta" ]; then
@@ -44,6 +46,18 @@ else
   conda activate "$SS_CONDA_ENV"
 
   export LD_LIBRARY_PATH=${CONDA_PREFIX}/lib:${LD_LIBRARY_PATH}
+
+  # RTL track: prefer Java 11 for sbt/Chisel and keep sbt, ivy, and coursier
+  # caches under ss-tools instead of the (often quota-limited) home directory.
+  if [ -z "$JAVA_HOME" ] && [ -x /usr/lib/jvm/java-11-openjdk/bin/java ]; then
+    export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
+  fi
+  if [ -n "$JAVA_HOME" ]; then
+    export PATH=$JAVA_HOME/bin:$PATH
+  fi
+  SS_SBT_CACHE=$SS_TOOLS/sbt/cache
+  export COURSIER_CACHE=$SS_SBT_CACHE/coursier
+  export SBT_OPTS="-Dsbt.boot.directory=$SS_SBT_CACHE/boot -Dsbt.ivy.home=$SS_SBT_CACHE/ivy2 -Dsbt.global.base=$SS_SBT_CACHE/global"
 
 fi
 

@@ -1,15 +1,15 @@
 [submodule "dsa-apps"]
 	path = dsa-apps
-	url = https://github.com/polyarch/dsa-apps
+	url = https://github.com/polarbearsrock/dsa-apps.git
 [submodule "dsa-docs"]
 	path = docs
 	url = https://github.com/polyarch/dsa-docs
 [submodule "dsa-scheduler"]
 	path = dsa-scheduler
-	url = https://github.com/polyarch/dsa-scheduler
+	url = https://github.com/polarbearsrock/dsa-scheduler.git
 [submodule "chipyard"]
 	path = chipyard
-	url = https://github.com/PolyArch/chipyard.git
+	url = https://github.com/polarbearsrock/chipyard.git
 [submodule "dsa-gem5"]
 	path = dsa-gem5
 	url = https://github.com/polyarch/dsa-gem5

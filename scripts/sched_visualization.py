@@ -292,7 +292,7 @@ def generate_adg_graph(filename, graph_name, graph_folder, schedule):
             link['color'] = linkColors[name][0]
             link['dashes'] = False
 
-    net.show(graph_folder + '/' + graph_name + '.html')
+    net.show(graph_folder + '/' + graph_name + '.html', notebook=False)
     print('Finished: ' + graph_folder + '/' + graph_name)
 
 def adg_vis(filename, graph_name):

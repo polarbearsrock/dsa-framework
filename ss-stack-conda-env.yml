@@ -18,3 +18,11 @@ dependencies:
     - pyvis
     - matplotlib
     - pandas
+    # Optional tooling: gem5 config graphs, docs, FPGA area-model ML scripts.
+    - pydot
+    - sphinx==5.3.0
+    - breathe==4.34.0
+    - ray==2.10.0
+    - --extra-index-url https://download.pytorch.org/whl/cpu
+    - torch==2.4.1+cpu
+    - torchvision==0.19.1+cpu

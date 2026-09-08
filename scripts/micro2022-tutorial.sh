@@ -11,25 +11,26 @@ make ss-vecadd.out
 ./run.sh ss-vecadd.out
 
 ## DFG Visualization
-ss_sched vecadd_0_1.dfg -f
-neato -Tpng -overlap=false -Gepsilon=.0001 -o vecadd_0_1_1.png vecadd_0_1.gv
+ss_sched vecadd_0_4.dfg -f   # ss_sched also runs neato to emit vecadd_0_4.png
+neato -Tpng -Goverlap=false -Gepsilon=.0001 -o vecadd_0_4_1.png vecadd_0_4.gv
 
 ## ADG Visualization
 python3 $SS/scripts/adg_visualization.py generators/dsagen2/adg/Mesh7x5-Simple64-Full7I5O.json
 
 ## Scheduled DFG-ADG Visualization
-ss_sched vecadd_0_1.dfg ../adg/Mesh7x5-Simple64-Full7I5O.json -f
-dot -Tpng -o vecadd_0_1.png vecadd_0_1.gv
+ss_sched vecadd_0_4.dfg ../../adg/Mesh7x5-Simple64-Full7I5O.json -f
+dot -Tpng -o vecadd_0_4.png viz/vecadd_0_4.gv
+python3 $SS/scripts/sched_visualization.py viz/sched_adg.json
 
 ## Demo a MV-Suite
 cd $SS/dsa-apps/demo
 ./run.sh ss-mv.out
 ./run.sh ss-crs.out
 
-## Compile RISC-V Binary
+## Compile RISC-V Binary (GEM5=0 selects the Chipyard harness; the default builds a gem5-flavoured binary)
 make ultraclean
-make ss-mv.riscv
-make ss-crs.riscv
+make GEM5=0 ss-mv.riscv
+make GEM5=0 ss-crs.riscv
 
 ## DFG Visualization
 ss_sched spmv_0_1_1.dfg -f
@@ -37,7 +38,7 @@ neato -Tpng -Goverlap=false -Gepsilon=.0001 -o spmv_0_1_1.png spmv_0_1_1.gv
 
 ## Scheduled DFG-ADG Visualization
 ss_sched spmv_0_1_1.dfg ../adg/Mesh7x5-Simple64-Full7I5O.json -f
-python3 $SS/scripts/sched_visualization.py viz/sched-adg.json
+python3 $SS/scripts/sched_visualization.py viz/sched_adg.json
 # dot -Tpng -o spmv_0_1_1.png spmv_0_1_1.gv (alternative method)
 
 ###########################################
