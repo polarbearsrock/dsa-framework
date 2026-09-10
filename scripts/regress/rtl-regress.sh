@@ -1,11 +1,13 @@
 #!/bin/bash
 # usage: rtl-regress.sh <adg.json> [tag]
 # Gate, build, compile and run the frozen regression set (vecadd matadd mv acc solver) on Verilator.
-set -u -o pipefail
+set -o pipefail
 ROOT=$(cd "$(dirname "$0")/../.." && pwd); HERE=$ROOT/scripts/regress
 ADG=$(readlink -f "$1"); TAG=${2:-$(basename "$ADG" .json)}
 OUT=${TMPDIR:-/tmp}/dsa-regress/$TAG; mkdir -p "$OUT"
+# The conda and framework environment scripts reference unset variables, so source them before enabling -u.
 source /etc/profile.d/conda.sh 2>/dev/null; source "$ROOT/setup.sh" >/dev/null 2>&1
+set -u
 export MAKEFLAGS=-j32; TS="taskset -c 0-31"
 TESTS="vecadd matadd mv acc"; DSP="solver"
 CY=$ROOT/chipyard; HW=$CY/generators/dsagen2/adg/$(basename "$ADG" .json)-hw.json

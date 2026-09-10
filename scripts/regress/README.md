@@ -15,7 +15,10 @@ Reference configurations:
 
 - `seed-mesh.json`: the 7x5 seed mesh (`Mesh7x5-Full64-Full7I5O` plus the
   `supportBuffet` fields the current generator requires).
-- a DSE overlay produced from `dsa-apps/compiled/Regress/dfgs.list`:
+- `dse-overlay.json`: a DSE-pruned overlay explored from the same five kernels
+  (9 PEs, 29 switches, all memory engines). Regenerate one from
+  `dsa-apps/compiled/Regress/dfgs.list` when the DSE changes (different seeds give
+  overlays of different tightness; keep one where all five DFGs pass the gate):
 
       cd dsa-apps/compiled/Regress
       taskset -c 0-31 ss_sched dfgs.list ../../adg/Mesh7x5-Full64-Full7I5O.json -x -f -m 200 --dse-timeout=300 -e 1

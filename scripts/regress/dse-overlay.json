@@ -1,0 +1,4795 @@
+{
+"DSAGenNodes" : { 
+"ProcessingElement.0" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "ProcessingElement",
+"nodeId" : 0,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$RegFile$" : {
+"numReg" : 1,
+"asyncRF" : true,
+"update" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+"resetRegIdx" : [ 0 ]
+},
+"dsagen2.comp.config.CompKeys$MetaControl$" : {
+"outputLSBCtrl" : true,
+"sizeLUT" : 4,
+"abstain" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+"inputLSBCtrl" : true,
+"reuseOperand" : true,
+"resetRegister" : true,
+"discardResult" : true
+},
+"dsagen2.comp.config.CompKeys$DsaOperations$" : {
+"isDynamic" : true,
+"OperationDataTypeSet" : [ "Copy", "Add_I64", "FAdd_D64", "FMul_D64", "FSub_D64", "Mul_I64" ],
+"maxInstRepeatTime" : 0,
+"definedLatency" : 0,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+"instSlotSize" : 1,
+"maxFifoDepth" : 17}
+},
+"ProcessingElement.1" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "ProcessingElement",
+"nodeId" : 1,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$RegFile$" : {
+"numReg" : 1,
+"asyncRF" : true,
+"update" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+"resetRegIdx" : [ 0 ]
+},
+"dsagen2.comp.config.CompKeys$MetaControl$" : {
+"outputLSBCtrl" : true,
+"sizeLUT" : 4,
+"abstain" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+"inputLSBCtrl" : true,
+"reuseOperand" : true,
+"resetRegister" : true,
+"discardResult" : true
+},
+"dsagen2.comp.config.CompKeys$DsaOperations$" : {
+"isDynamic" : true,
+"OperationDataTypeSet" : [ "FMul_D64", "Mul_I64" ],
+"maxInstRepeatTime" : 0,
+"definedLatency" : 0,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+"instSlotSize" : 1,
+"maxFifoDepth" : 9}
+},
+"ProcessingElement.2" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "ProcessingElement",
+"nodeId" : 2,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$RegFile$" : {
+"numReg" : 1,
+"asyncRF" : true,
+"update" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+"resetRegIdx" : [ 0 ]
+},
+"dsagen2.comp.config.CompKeys$MetaControl$" : {
+"outputLSBCtrl" : true,
+"sizeLUT" : 4,
+"abstain" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+"inputLSBCtrl" : true,
+"reuseOperand" : true,
+"resetRegister" : true,
+"discardResult" : true
+},
+"dsagen2.comp.config.CompKeys$DsaOperations$" : {
+"isDynamic" : true,
+"OperationDataTypeSet" : [ "Copy", "Add_I64", "FMul_D64", "Mul_I64" ],
+"maxInstRepeatTime" : 0,
+"definedLatency" : 0,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+"instSlotSize" : 1,
+"maxFifoDepth" : 12}
+},
+"ProcessingElement.3" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "ProcessingElement",
+"nodeId" : 3,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$RegFile$" : {
+"numReg" : 1,
+"asyncRF" : true,
+"update" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+"resetRegIdx" : [ 0 ]
+},
+"dsagen2.comp.config.CompKeys$MetaControl$" : {
+"outputLSBCtrl" : true,
+"sizeLUT" : 4,
+"abstain" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+"inputLSBCtrl" : true,
+"reuseOperand" : true,
+"resetRegister" : true,
+"discardResult" : true
+},
+"dsagen2.comp.config.CompKeys$DsaOperations$" : {
+"isDynamic" : true,
+"OperationDataTypeSet" : [ "Copy", "Add_I64", "FAdd_D64", "FDiv_D64", "FMul_D64", "FSub_D64", "Mul_I64" ],
+"maxInstRepeatTime" : 0,
+"definedLatency" : 0,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+"instSlotSize" : 1,
+"maxFifoDepth" : 5}
+},
+"ProcessingElement.4" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "ProcessingElement",
+"nodeId" : 4,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$RegFile$" : {
+"numReg" : 1,
+"asyncRF" : true,
+"update" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+"resetRegIdx" : [ 0 ]
+},
+"dsagen2.comp.config.CompKeys$MetaControl$" : {
+"outputLSBCtrl" : true,
+"sizeLUT" : 4,
+"abstain" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+"inputLSBCtrl" : true,
+"reuseOperand" : true,
+"resetRegister" : true,
+"discardResult" : true
+},
+"dsagen2.comp.config.CompKeys$DsaOperations$" : {
+"isDynamic" : true,
+"OperationDataTypeSet" : [ "FMul_D64", "FSub_D64" ],
+"maxInstRepeatTime" : 0,
+"definedLatency" : 0,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+"instSlotSize" : 1,
+"maxFifoDepth" : 9}
+},
+"ProcessingElement.5" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "ProcessingElement",
+"nodeId" : 5,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$RegFile$" : {
+"numReg" : 1,
+"asyncRF" : true,
+"update" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+"resetRegIdx" : [ 0 ]
+},
+"dsagen2.comp.config.CompKeys$MetaControl$" : {
+"outputLSBCtrl" : true,
+"sizeLUT" : 4,
+"abstain" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+"inputLSBCtrl" : true,
+"reuseOperand" : true,
+"resetRegister" : true,
+"discardResult" : true
+},
+"dsagen2.comp.config.CompKeys$DsaOperations$" : {
+"isDynamic" : true,
+"OperationDataTypeSet" : [ "Copy", "FAdd_D64", "FDiv_D64", "FMul_D64", "FSub_D64", "Mul_I64" ],
+"maxInstRepeatTime" : 0,
+"definedLatency" : 0,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+"instSlotSize" : 1,
+"maxFifoDepth" : 14}
+},
+"ProcessingElement.6" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "ProcessingElement",
+"nodeId" : 6,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$RegFile$" : {
+"numReg" : 1,
+"asyncRF" : true,
+"update" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+"resetRegIdx" : [ 0 ]
+},
+"dsagen2.comp.config.CompKeys$MetaControl$" : {
+"outputLSBCtrl" : true,
+"sizeLUT" : 4,
+"abstain" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+"inputLSBCtrl" : true,
+"reuseOperand" : true,
+"resetRegister" : true,
+"discardResult" : true
+},
+"dsagen2.comp.config.CompKeys$DsaOperations$" : {
+"isDynamic" : true,
+"OperationDataTypeSet" : [ "Copy", "Add_I64", "FAdd_D64", "FSub_D64" ],
+"maxInstRepeatTime" : 0,
+"definedLatency" : 0,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+"instSlotSize" : 1,
+"maxFifoDepth" : 32}
+},
+"ProcessingElement.7" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "ProcessingElement",
+"nodeId" : 7,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$RegFile$" : {
+"numReg" : 1,
+"asyncRF" : true,
+"update" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+"resetRegIdx" : [ 0 ]
+},
+"dsagen2.comp.config.CompKeys$MetaControl$" : {
+"outputLSBCtrl" : true,
+"sizeLUT" : 4,
+"abstain" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+"inputLSBCtrl" : true,
+"reuseOperand" : true,
+"resetRegister" : true,
+"discardResult" : true
+},
+"dsagen2.comp.config.CompKeys$DsaOperations$" : {
+"isDynamic" : true,
+"OperationDataTypeSet" : [ "FSub_D64" ],
+"maxInstRepeatTime" : 0,
+"definedLatency" : 0,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+"instSlotSize" : 1,
+"maxFifoDepth" : 18}
+},
+"ProcessingElement.8" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "ProcessingElement",
+"nodeId" : 8,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$RegFile$" : {
+"numReg" : 1,
+"asyncRF" : true,
+"update" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+"resetRegIdx" : [ 0 ]
+},
+"dsagen2.comp.config.CompKeys$MetaControl$" : {
+"outputLSBCtrl" : true,
+"sizeLUT" : 4,
+"abstain" : true,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+"inputLSBCtrl" : true,
+"reuseOperand" : true,
+"resetRegister" : true,
+"discardResult" : true
+},
+"dsagen2.comp.config.CompKeys$DsaOperations$" : {
+"isDynamic" : true,
+"OperationDataTypeSet" : [ "FDiv_D64" ],
+"maxInstRepeatTime" : 0,
+"definedLatency" : 0,
+"parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+"instSlotSize" : 1,
+"maxFifoDepth" : 26}
+},
+"Switch.0" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 0,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.1" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 1,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.2" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 2,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.3" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 3,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.4" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 4,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.5" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 5,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.6" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 6,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.7" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 7,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.8" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 8,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.9" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 9,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.10" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 10,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.11" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 11,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.12" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 12,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.13" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 13,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.14" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 14,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.15" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 15,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.16" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 16,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.17" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 17,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.18" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 18,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.19" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 19,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.20" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 20,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.21" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 21,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.22" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 22,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.23" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 23,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.24" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 24,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.25" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 25,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.26" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 26,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.27" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 27,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"Switch.28" : {
+"ConfigBitEncode" : {
+},
+"dsagen2.comp.config.CompKeys$CompNode$" : {
+"predicated" : false,
+"compBits" : 64,
+"parameterClassName": "dsagen2.comp.config.CompNodeParameters",
+"compUnitBits" : 64,
+"nodeType" : "Switch",
+"nodeId" : 28,
+"supportNodeActive" : true
+},
+"dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+"outputBufferDepth" : 2,
+"parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+"staticOutputBuffer" : false
+},
+"dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+"initFullMatrix" : [ ],
+"parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+"initIndividualMatrix" : [ ] 
+}
+},
+"RecurrenceEngine.0" : {
+"dsagen2.mem.config.MemKeys$MemNode$" : {
+"numWrite" : 1,
+"memUnitBits" : 8,
+"numRead" : 1,
+"MaxLength1D" : 2147483646,
+"parameterClassName" : "dsagen2.mem.config.MemNodeParameters",
+"MaxLength3D" : 0,
+"capacity" : 16384,
+"LinearLength1DStream" : false,
+"numGenDataType" : 0,
+"LinearPadding" : true,
+"MaxAbsStretch3D2D" : 0,
+"numPendingRequest" : 0,
+"NumLength1DUnitBitsExp" : 0,
+"MaxAbsStride3D" : 0,
+"MaxAbsStride1D" : 1,
+"IndirectStride2DStream" : false,
+"AtomicOperations" : [  ],
+"NumIdxUnitBitsExp" : 0,
+"MaxAbsDeltaStride2D" : 0,
+"LinearStride2DStream" : false,
+"MaxLength2D" : 0,
+"MaxAbsStretch2D" : 0,
+"nodeType" : "RecurrenceEngine",
+"numGenDataType" : 0,
+"numMemUnitBitsExp" : 4,
+"supportBuffet" : false,
+"MaxAbsStretch3D1D" : 0,
+"IndirectIndexStream" : false,
+"NumStride2DUnitBitsExp" : 0,
+"writeWidth" : 16,
+"MaxAbsStride2D" : 0,
+"readWidth" : 16,
+"nodeId" : 0,
+"streamStated" : true,
+"numSpmBank" : 0,
+"IndirectLength1DStream" : false,
+"MaxAbsDeltaStretch2D" : 0
+}
+},
+"RegisterEngine.0" : {
+"dsagen2.mem.config.MemKeys$MemNode$" : {
+"numWrite" : 1,
+"memUnitBits" : 8,
+"numRead" : 1,
+"MaxLength1D" : 0,
+"parameterClassName" : "dsagen2.mem.config.MemNodeParameters",
+"MaxLength3D" : 0,
+"capacity" : 16384,
+"LinearLength1DStream" : false,
+"numGenDataType" : 0,
+"LinearPadding" : false,
+"MaxAbsStretch3D2D" : 0,
+"numPendingRequest" : 0,
+"NumLength1DUnitBitsExp" : 0,
+"MaxAbsStride3D" : 0,
+"MaxAbsStride1D" : 0,
+"IndirectStride2DStream" : false,
+"AtomicOperations" : [  ],
+"NumIdxUnitBitsExp" : 0,
+"MaxAbsDeltaStride2D" : 0,
+"LinearStride2DStream" : false,
+"MaxLength2D" : 0,
+"MaxAbsStretch2D" : 0,
+"nodeType" : "RegisterEngine",
+"numGenDataType" : 0,
+"numMemUnitBitsExp" : 4,
+"supportBuffet" : false,
+"MaxAbsStretch3D1D" : 0,
+"IndirectIndexStream" : false,
+"NumStride2DUnitBitsExp" : 0,
+"writeWidth" : 8,
+"MaxAbsStride2D" : 0,
+"readWidth" : 8,
+"nodeId" : 0,
+"streamStated" : true,
+"numSpmBank" : 0,
+"IndirectLength1DStream" : false,
+"MaxAbsDeltaStretch2D" : 0
+}
+},
+"GenerateEngine.0" : {
+"dsagen2.mem.config.MemKeys$MemNode$" : {
+"numWrite" : 0,
+"memUnitBits" : 8,
+"numRead" : 1,
+"MaxLength1D" : 2147483646,
+"parameterClassName" : "dsagen2.mem.config.MemNodeParameters",
+"MaxLength3D" : 0,
+"capacity" : 16384,
+"LinearLength1DStream" : true,
+"numGenDataType" : 4,
+"LinearPadding" : true,
+"MaxAbsStretch3D2D" : 0,
+"numPendingRequest" : 16,
+"NumLength1DUnitBitsExp" : 4,
+"MaxAbsStride3D" : 0,
+"MaxAbsStride1D" : 1,
+"IndirectStride2DStream" : true,
+"AtomicOperations" : [  ],
+"NumIdxUnitBitsExp" : 4,
+"MaxAbsDeltaStride2D" : 0,
+"LinearStride2DStream" : true,
+"MaxLength2D" : 2147483646,
+"MaxAbsStretch2D" : 1073741822,
+"nodeType" : "GenerateEngine",
+"numGenDataType" : 4,
+"numMemUnitBitsExp" : 4,
+"supportBuffet" : false,
+"MaxAbsStretch3D1D" : 0,
+"IndirectIndexStream" : true,
+"NumStride2DUnitBitsExp" : 4,
+"writeWidth" : 0,
+"MaxAbsStride2D" : 1073741822,
+"readWidth" : 8,
+"nodeId" : 0,
+"streamStated" : true,
+"numSpmBank" : 0,
+"IndirectLength1DStream" : true,
+"MaxAbsDeltaStretch2D" : 0
+}
+},
+"ScratchpadMemory.0" : {
+"dsagen2.mem.config.MemKeys$MemNode$" : {
+"numWrite" : 1,
+"memUnitBits" : 8,
+"numRead" : 1,
+"MaxLength1D" : 2147483646,
+"parameterClassName" : "dsagen2.mem.config.MemNodeParameters",
+"MaxLength3D" : 0,
+"capacity" : 32768,
+"LinearLength1DStream" : true,
+"numGenDataType" : 0,
+"LinearPadding" : true,
+"MaxAbsStretch3D2D" : 0,
+"numPendingRequest" : 16,
+"NumLength1DUnitBitsExp" : 4,
+"MaxAbsStride3D" : 0,
+"MaxAbsStride1D" : 1,
+"IndirectStride2DStream" : true,
+"AtomicOperations" : [  ],
+"NumIdxUnitBitsExp" : 4,
+"MaxAbsDeltaStride2D" : 0,
+"LinearStride2DStream" : true,
+"MaxLength2D" : 2147483646,
+"MaxAbsStretch2D" : 1073741822,
+"nodeType" : "ScratchpadMemory",
+"numGenDataType" : 0,
+"numMemUnitBitsExp" : 4,
+"supportBuffet" : false,
+"MaxAbsStretch3D1D" : 0,
+"IndirectIndexStream" : true,
+"NumStride2DUnitBitsExp" : 4,
+"writeWidth" : 32,
+"MaxAbsStride2D" : 1073741822,
+"readWidth" : 32,
+"nodeId" : 0,
+"streamStated" : true,
+"numSpmBank" : 4,
+"IndirectLength1DStream" : true,
+"MaxAbsDeltaStretch2D" : 0
+}
+},
+"DirectMemoryAccess.0" : {
+"dsagen2.mem.config.MemKeys$MemNode$" : {
+"numWrite" : 1,
+"memUnitBits" : 8,
+"numRead" : 1,
+"MaxLength1D" : 2147483646,
+"parameterClassName" : "dsagen2.mem.config.MemNodeParameters",
+"MaxLength3D" : 0,
+"capacity" : 1099511627776,
+"LinearLength1DStream" : true,
+"numGenDataType" : 0,
+"LinearPadding" : true,
+"MaxAbsStretch3D2D" : 0,
+"numPendingRequest" : 16,
+"NumLength1DUnitBitsExp" : 4,
+"MaxAbsStride3D" : 0,
+"MaxAbsStride1D" : 1,
+"IndirectStride2DStream" : true,
+"AtomicOperations" : [ "Add", "Sub", "Min", "Max" ],
+"NumIdxUnitBitsExp" : 4,
+"MaxAbsDeltaStride2D" : 0,
+"LinearStride2DStream" : true,
+"MaxLength2D" : 2147483646,
+"MaxAbsStretch2D" : 1073741822,
+"nodeType" : "DirectMemoryAccess",
+"numGenDataType" : 0,
+"numMemUnitBitsExp" : 4,
+"supportBuffet" : false,
+"MaxAbsStretch3D1D" : 0,
+"IndirectIndexStream" : true,
+"NumStride2DUnitBitsExp" : 4,
+"writeWidth" : 32,
+"MaxAbsStride2D" : 1073741822,
+"readWidth" : 32,
+"nodeId" : 0,
+"streamStated" : true,
+"numSpmBank" : 0,
+"IndirectLength1DStream" : true,
+"MaxAbsDeltaStretch2D" : 0
+}
+},
+"InputVectorPort.0" : {
+"dsagen2.sync.config.SyncKeys$IVPNode$" : {
+"vpImpl" : 0,
+"vpStated" : true,
+"parameterClassName" : "dsagen2.sync.config.IVPNodeParameters",
+"depthByte" : 2,
+"nodeType" : "InputVectorPort",
+"nodeId" : 0,
+"broadcastIVP" : true,
+"repeatedIVP" : true
+}
+},
+"InputVectorPort.1" : {
+"dsagen2.sync.config.SyncKeys$IVPNode$" : {
+"vpImpl" : 0,
+"vpStated" : true,
+"parameterClassName" : "dsagen2.sync.config.IVPNodeParameters",
+"depthByte" : 2,
+"nodeType" : "InputVectorPort",
+"nodeId" : 1,
+"broadcastIVP" : true,
+"repeatedIVP" : true
+}
+},
+"InputVectorPort.2" : {
+"dsagen2.sync.config.SyncKeys$IVPNode$" : {
+"vpImpl" : 0,
+"vpStated" : true,
+"parameterClassName" : "dsagen2.sync.config.IVPNodeParameters",
+"depthByte" : 2,
+"nodeType" : "InputVectorPort",
+"nodeId" : 2,
+"broadcastIVP" : true,
+"repeatedIVP" : true
+}
+},
+"InputVectorPort.3" : {
+"dsagen2.sync.config.SyncKeys$IVPNode$" : {
+"vpImpl" : 0,
+"vpStated" : true,
+"parameterClassName" : "dsagen2.sync.config.IVPNodeParameters",
+"depthByte" : 2,
+"nodeType" : "InputVectorPort",
+"nodeId" : 3,
+"broadcastIVP" : true,
+"repeatedIVP" : true
+}
+},
+"InputVectorPort.4" : {
+"dsagen2.sync.config.SyncKeys$IVPNode$" : {
+"vpImpl" : 0,
+"vpStated" : true,
+"parameterClassName" : "dsagen2.sync.config.IVPNodeParameters",
+"depthByte" : 2,
+"nodeType" : "InputVectorPort",
+"nodeId" : 4,
+"broadcastIVP" : true,
+"repeatedIVP" : true
+}
+},
+"OutputVectorPort.0" : {
+"dsagen2.sync.config.SyncKeys$OVPNode$" : {
+"discardOVP" : true,
+"vpImpl" : 0,
+"vpStated" : false,
+"parameterClassName" : "dsagen2.sync.config.OVPNodeParameters",
+"taskOVP" : true,
+"depthByte" : 2,
+"nodeType" : "OutputVectorPort",
+"nodeId" : 0
+}
+},
+"OutputVectorPort.1" : {
+"dsagen2.sync.config.SyncKeys$OVPNode$" : {
+"discardOVP" : true,
+"vpImpl" : 0,
+"vpStated" : false,
+"parameterClassName" : "dsagen2.sync.config.OVPNodeParameters",
+"taskOVP" : true,
+"depthByte" : 2,
+"nodeType" : "OutputVectorPort",
+"nodeId" : 1
+}
+}
+},
+"DSAGenEdges" : [ {
+"SourceNodeType" : "DirectMemoryAccess",
+"SourceNodeId" : 0,
+"SourceIndex" : 0,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 0,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "GenerateEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 0,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 0,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 0,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 7,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 1,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 9,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 6,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 7,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 2,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 8,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 4,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "RecurrenceEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 0,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 0,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "ScratchpadMemory",
+"SourceNodeId" : 0,
+"SourceIndex" : 0,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 0,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 7,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 2,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 13,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 2,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 8,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 5,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 10,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 10,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 11,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 13,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 0,
+"SourceIndex" : 0,
+"SinkNodeType" : "DirectMemoryAccess",
+"SinkNodeId" : 0,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 0,
+"SourceIndex" : 1,
+"SinkNodeType" : "GenerateEngine",
+"SinkNodeId" : 0,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 0,
+"SourceIndex" : 2,
+"SinkNodeType" : "RecurrenceEngine",
+"SinkNodeId" : 0,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 0,
+"SourceIndex" : 3,
+"SinkNodeType" : "RegisterEngine",
+"SinkNodeId" : 0,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 0,
+"SourceIndex" : 4,
+"SinkNodeType" : "ScratchpadMemory",
+"SinkNodeId" : 0,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 4,
+"SourceIndex" : 0,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 0,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 14,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 2,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SourceIndex" : 3,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 0,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 3,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 15,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 15,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 14,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SourceIndex" : 1,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SourceIndex" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 17,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 2,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 17,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "DirectMemoryAccess",
+"SourceNodeId" : 0,
+"SourceIndex" : 1,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 1,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "GenerateEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 1,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 1,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "RecurrenceEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 1,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 1,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "ScratchpadMemory",
+"SourceNodeId" : 0,
+"SourceIndex" : 1,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 1,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 1,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 1,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 11,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 14,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 10,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 9,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 9,
+"SourceIndex" : 1,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SourceIndex" : 5,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 3,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 6,
+"SourceIndex" : 1,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 2,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 19,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "DirectMemoryAccess",
+"SourceNodeId" : 0,
+"SourceIndex" : 2,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 2,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "GenerateEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 2,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 2,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "RecurrenceEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 2,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 2,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "ScratchpadMemory",
+"SourceNodeId" : 0,
+"SourceIndex" : 2,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 2,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 2,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 2,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 7,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 1,
+"SourceIndex" : 0,
+"SinkNodeType" : "DirectMemoryAccess",
+"SinkNodeId" : 0,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 1,
+"SourceIndex" : 1,
+"SinkNodeType" : "GenerateEngine",
+"SinkNodeId" : 0,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 1,
+"SourceIndex" : 2,
+"SinkNodeType" : "RecurrenceEngine",
+"SinkNodeId" : 0,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 1,
+"SourceIndex" : 3,
+"SinkNodeType" : "RegisterEngine",
+"SinkNodeId" : 0,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 1,
+"SourceIndex" : 4,
+"SinkNodeType" : "ScratchpadMemory",
+"SinkNodeId" : 0,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 5,
+"SourceIndex" : 1,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SourceIndex" : 2,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 18,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 3,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 7,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 0,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 7,
+"SourceIndex" : 1,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 4,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 2,
+"SourceIndex" : 2,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 1,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 20,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 20,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 20,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 18,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 20,
+"SourceIndex" : 1,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 7,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 17,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 16,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 17,
+"SourceIndex" : 1,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SourceIndex" : 2,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 8,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 4,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 9,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 4,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SourceIndex" : 2,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 1,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 10,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 4,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SourceIndex" : 2,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 19,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 22,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 22,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 6,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 22,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 20,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SourceIndex" : 6,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 23,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 23,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 0,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 16,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 3,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 7,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 24,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "DirectMemoryAccess",
+"SourceNodeId" : 0,
+"SourceIndex" : 3,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 3,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "GenerateEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 3,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 3,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "RecurrenceEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 3,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 3,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "ScratchpadMemory",
+"SourceNodeId" : 0,
+"SourceIndex" : 3,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 3,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 9,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SourceIndex" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SourceIndex" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 19,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 5,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 6,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"SinkIndex" : 4
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 25,
+"SourceIndex" : 0,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SourceIndex" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 26,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 26,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SourceIndex" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 14,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 5,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 27,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 19,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 27,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 27,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 27,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 4,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 27,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 4,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 28,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 24,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 28,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 28,
+"SourceIndex" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 15,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SourceIndex" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 11,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "DirectMemoryAccess",
+"SourceNodeId" : 0,
+"SourceIndex" : 4,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 4,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "GenerateEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 4,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 4,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "RecurrenceEngine",
+"SourceNodeId" : 0,
+"SourceIndex" : 4,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 4,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "ScratchpadMemory",
+"SourceNodeId" : 0,
+"SourceIndex" : 4,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 4,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SourceIndex" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 1,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"SinkIndex" : 5
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SourceIndex" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 22,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SourceIndex" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SourceIndex" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SourceIndex" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"SinkIndex" : 4
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SourceIndex" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 25,
+"SinkIndex" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 11,
+"SourceIndex" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"SinkIndex" : 4
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 11,
+"SourceIndex" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"SinkIndex" : 3
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 28,
+"SourceIndex" : 1,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 1,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SourceIndex" : 5,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"SinkIndex" : 4
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SourceIndex" : 6,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 3,
+"SinkIndex" : 2
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 10,
+"SourceIndex" : 2,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 4,
+"SinkIndex" : 1
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 19,
+"SourceIndex" : 2,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"SinkIndex" : 3
+} ] ,
+"SystemParameters" : {
+"NumberOfCores" : 8,
+"NumberOfBanks" : 8,
+"SystemBusWidth" : 32
+},
+"Workloads" : [ 
+{
+"Schedules" : [ 
+{
+"Name" : "../Tests/dfgs/vecadd/vecadd_0_4.dfg",
+"Performance" : 16,
+"SPM Performance" : 1,
+"L2 Performance" : 1,
+"DRAM Performance" : 1,
+"Vertices" : [
+{
+"VertexId" : 0,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.4",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 1,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.3",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 2,
+"VertexType" : "Instruction",
+"Instruction Name" : "Add_I64",
+"Instruction OpCode" : 1730,
+"MappedNodeId" : "ProcessingElement.2",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 3,
+"VertexType" : "Instruction",
+"Instruction Name" : "Add_I64",
+"Instruction OpCode" : 1730,
+"MappedNodeId" : "ProcessingElement.0",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 4,
+"VertexType" : "Instruction",
+"Instruction Name" : "Add_I64",
+"Instruction OpCode" : 1730,
+"MappedNodeId" : "ProcessingElement.3",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 5,
+"VertexType" : "Instruction",
+"Instruction Name" : "Add_I64",
+"Instruction OpCode" : 1730,
+"MappedNodeId" : "ProcessingElement.6",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 6,
+"VertexType" : "OutputPort",
+"MappedNodeId" : "OutputVectorPort.1",
+"MappedNodeLane" : 0
+}
+
+],
+"Edges" : [
+{
+"EdgeId" : 0,
+"ValueNode" : 0,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 2,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 1,
+"ValueNode" : 1,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 2,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 24,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 28,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 28,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 15,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 15,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 14,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 14,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 10,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 10,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 2,
+"ValueNode" : 0,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 3,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 4,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 27,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 27,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 23,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 23,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 3,
+"ValueNode" : 1,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 3,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 11,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 11,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 4,
+"ValueNode" : 0,
+"ValueIndex" : 2,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 4,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 22,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 22,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 20,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 20,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 18,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 18,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 3,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 5,
+"ValueNode" : 1,
+"ValueIndex" : 2,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 4,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 3,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 6,
+"ValueNode" : 0,
+"ValueIndex" : 3,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 5,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 14,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 14,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 2,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 17,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 17,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 16,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 7,
+"ValueNode" : 1,
+"ValueIndex" : 3,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 5,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 19,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 19,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 22,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 22,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 6,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 6,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 8,
+"ValueNode" : 2,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 2,
+"SinkId" : 6,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 19,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 19,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 27,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 27,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 10,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 10,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 5,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 9,
+"ValueNode" : 3,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 3,
+"SinkId" : 6,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 16,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 10,
+"ValueNode" : 4,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 4,
+"SinkId" : 6,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 26,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 26,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 5,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 17,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 17,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 11,
+"ValueNode" : 5,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 5,
+"SinkId" : 6,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 6,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 25,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 25,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+}
+]
+}
+]
+},
+{
+"Schedules" : [ 
+{
+"Name" : "../Tests/dfgs/matadd/matadd_0_2.dfg",
+"Performance" : 8,
+"SPM Performance" : 1,
+"L2 Performance" : 1,
+"DRAM Performance" : 1,
+"Vertices" : [
+{
+"VertexId" : 0,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.1",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 1,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.4",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 2,
+"VertexType" : "Instruction",
+"Instruction Name" : "FAdd_D64",
+"Instruction OpCode" : 371,
+"MappedNodeId" : "ProcessingElement.5",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 3,
+"VertexType" : "Instruction",
+"Instruction Name" : "FAdd_D64",
+"Instruction OpCode" : 371,
+"MappedNodeId" : "ProcessingElement.3",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 4,
+"VertexType" : "OutputPort",
+"MappedNodeId" : "OutputVectorPort.0",
+"MappedNodeLane" : 0
+}
+
+],
+"Edges" : [
+{
+"EdgeId" : 0,
+"ValueNode" : 0,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 2,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 11,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 11,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 1,
+"ValueNode" : 1,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 2,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 5,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 17,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 17,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 16,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 2,
+"ValueNode" : 0,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 3,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 20,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 20,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 18,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 18,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 3,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 3,
+"ValueNode" : 1,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 3,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 3,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 4,
+"ValueNode" : 2,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 2,
+"SinkId" : 4,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 5,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 4,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 4,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 5,
+"ValueNode" : 3,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 3,
+"SinkId" : 4,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 15,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 15,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 14,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 14,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 2,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+}
+]
+}
+]
+},
+{
+"Schedules" : [ 
+{
+"Name" : "../Tests/dfgs/mv/mv_0_2.dfg",
+"Performance" : 9,
+"SPM Performance" : 1,
+"L2 Performance" : 1,
+"DRAM Performance" : 1,
+"Vertices" : [
+{
+"VertexId" : 0,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.2",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 1,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.3",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 2,
+"VertexType" : "Instruction",
+"Instruction Name" : "Mul_I64",
+"Instruction OpCode" : 1640,
+"MappedNodeId" : "ProcessingElement.5",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 3,
+"VertexType" : "Instruction",
+"Instruction Name" : "Mul_I64",
+"Instruction OpCode" : 1640,
+"MappedNodeId" : "ProcessingElement.0",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 4,
+"VertexType" : "Instruction",
+"Instruction Name" : "Add_I64",
+"Instruction OpCode" : 1730,
+"MappedNodeId" : "ProcessingElement.6",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 5,
+"VertexType" : "Instruction",
+"Instruction Name" : "Add_I64",
+"Instruction OpCode" : 1730,
+"MappedNodeId" : "ProcessingElement.2",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 6,
+"VertexType" : "OutputPort",
+"MappedNodeId" : "OutputVectorPort.1",
+"MappedNodeLane" : 0
+}
+
+],
+"Edges" : [
+{
+"EdgeId" : 0,
+"ValueNode" : 0,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 2,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 7,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 7,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 24,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 1,
+"ValueNode" : 1,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 2,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 24,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 28,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 28,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 15,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 15,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 14,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 14,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 2,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 13,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 13,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 2,
+"ValueNode" : 0,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 3,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 2,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 3,
+"ValueNode" : 1,
+"ValueIndex" : 2,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 3,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 11,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 11,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 4,
+"ValueNode" : 2,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 2,
+"SinkId" : 4,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 5,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 5,
+"ValueNode" : 3,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 3,
+"SinkId" : 4,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 16,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 6,
+"ValueNode" : 4,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 4,
+"SinkId" : 5,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 6,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 7,
+"ValueNode" : 1,
+"ValueIndex" : 0,
+"Bitwidth" : 8,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 5,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 9,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 9,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 8,
+"ValueNode" : 5,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 5,
+"SinkId" : 6,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 19,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 19,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 27,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 27,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 5,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+}
+]
+}
+]
+},
+{
+"Schedules" : [ 
+{
+"Name" : "../Tests/dfgs/acc/acc_0_2.dfg",
+"Performance" : 7,
+"SPM Performance" : 1,
+"L2 Performance" : 1,
+"DRAM Performance" : 1,
+"Vertices" : [
+{
+"VertexId" : 0,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.3",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 1,
+"VertexType" : "Instruction",
+"Instruction Name" : "Mul_I64",
+"Instruction OpCode" : 1640,
+"MappedNodeId" : "ProcessingElement.5",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 2,
+"VertexType" : "Instruction",
+"Instruction Name" : "Mul_I64",
+"Instruction OpCode" : 1640,
+"MappedNodeId" : "ProcessingElement.2",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 3,
+"VertexType" : "Instruction",
+"Instruction Name" : "Add_I64",
+"Instruction OpCode" : 1730,
+"MappedNodeId" : "ProcessingElement.0",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 4,
+"VertexType" : "Instruction",
+"Instruction Name" : "Add_I64",
+"Instruction OpCode" : 1730,
+"MappedNodeId" : "ProcessingElement.6",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 5,
+"VertexType" : "OutputPort",
+"MappedNodeId" : "OutputVectorPort.0",
+"MappedNodeLane" : 0
+}
+
+],
+"Edges" : [
+{
+"EdgeId" : 0,
+"ValueNode" : 0,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 1,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 24,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 1,
+"ValueNode" : 0,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 1,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 24,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 2,
+"ValueNode" : 0,
+"ValueIndex" : 2,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 2,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 3,
+"ValueNode" : 0,
+"ValueIndex" : 2,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 2,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 4,
+"ValueNode" : 1,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 3,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 5,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 27,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 27,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 11,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 11,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 5,
+"ValueNode" : 2,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 2,
+"SinkId" : 3,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 19,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 19,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 6,
+"ValueNode" : 3,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 3,
+"SinkId" : 4,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 16,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 7,
+"ValueNode" : 0,
+"ValueIndex" : 0,
+"Bitwidth" : 8,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 4,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 9,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 9,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 4,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 27,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 27,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 8,
+"ValueNode" : 4,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 4,
+"SinkId" : 5,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 6,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 4,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 4,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+}
+]
+}
+]
+},
+{
+"Schedules" : [ 
+{
+"Name" : "../Dsp/dfgs/solver/solver_0_4_1.dfg",
+"Performance" : 7.00516,
+"SPM Performance" : 1,
+"L2 Performance" : 0.331613,
+"DRAM Performance" : 1,
+"Vertices" : [
+{
+"VertexId" : 0,
+"VertexType" : "DirectMemoryAccess",
+"MappedNodeId" : "DirectMemoryAccess.0",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 1,
+"VertexType" : "DirectMemoryAccess",
+"MappedNodeId" : "DirectMemoryAccess.0",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 2,
+"VertexType" : "Recurrance",
+"MappedNodeId" : "RecurrenceEngine.0",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 3,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.2",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 4,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.4",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 5,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.3",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 6,
+"VertexType" : "Instruction",
+"Instruction Name" : "FMul_D64",
+"Instruction OpCode" : 1646,
+"MappedNodeId" : "ProcessingElement.1",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 7,
+"VertexType" : "Instruction",
+"Instruction Name" : "FMul_D64",
+"Instruction OpCode" : 1646,
+"MappedNodeId" : "ProcessingElement.2",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 8,
+"VertexType" : "Instruction",
+"Instruction Name" : "FMul_D64",
+"Instruction OpCode" : 1646,
+"MappedNodeId" : "ProcessingElement.3",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 9,
+"VertexType" : "Instruction",
+"Instruction Name" : "FMul_D64",
+"Instruction OpCode" : 1646,
+"MappedNodeId" : "ProcessingElement.4",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 10,
+"VertexType" : "Instruction",
+"Instruction Name" : "FSub_D64",
+"Instruction OpCode" : 324,
+"MappedNodeId" : "ProcessingElement.5",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 11,
+"VertexType" : "Instruction",
+"Instruction Name" : "FSub_D64",
+"Instruction OpCode" : 324,
+"MappedNodeId" : "ProcessingElement.0",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 12,
+"VertexType" : "Instruction",
+"Instruction Name" : "FSub_D64",
+"Instruction OpCode" : 324,
+"MappedNodeId" : "ProcessingElement.7",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 13,
+"VertexType" : "Instruction",
+"Instruction Name" : "FSub_D64",
+"Instruction OpCode" : 324,
+"MappedNodeId" : "ProcessingElement.6",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 14,
+"VertexType" : "OutputPort",
+"MappedNodeId" : "OutputVectorPort.1",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 15,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.1",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 16,
+"VertexType" : "InputPort",
+"MappedNodeId" : "InputVectorPort.0",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 17,
+"VertexType" : "Instruction",
+"Instruction Name" : "FDiv_D64",
+"Instruction OpCode" : 168,
+"MappedNodeId" : "ProcessingElement.8",
+"MappedNodeLane" : 0
+}
+,
+{
+"VertexId" : 18,
+"VertexType" : "OutputPort",
+"MappedNodeId" : "OutputVectorPort.0",
+"MappedNodeLane" : 0
+}
+
+],
+"Edges" : [
+{
+"EdgeId" : 0,
+"ValueNode" : 2,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 2,
+"SinkId" : 3,
+"Links" : [
+{
+"SourceNodeType" : "RecurrenceEngine",
+"SourceNodeId" : 0,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 2,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 1,
+"ValueNode" : 1,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 4,
+"Links" : [
+{
+"SourceNodeType" : "DirectMemoryAccess",
+"SourceNodeId" : 0,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 4,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 2,
+"ValueNode" : 0,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 5,
+"Links" : [
+{
+"SourceNodeType" : "DirectMemoryAccess",
+"SourceNodeId" : 0,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 3,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 3,
+"ValueNode" : 3,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 3,
+"SinkId" : 6,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 7,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 7,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 4,
+"ValueNode" : 4,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 4,
+"SinkId" : 6,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 5,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 24,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 28,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 28,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 5,
+"ValueNode" : 3,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 3,
+"SinkId" : 7,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 7,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 7,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 6,
+"ValueNode" : 4,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 4,
+"SinkId" : 7,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 4,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 2,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 7,
+"ValueNode" : 3,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 3,
+"SinkId" : 8,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 7,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 7,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 3,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 8,
+"ValueNode" : 4,
+"ValueIndex" : 2,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 4,
+"SinkId" : 8,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 22,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 22,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 20,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 20,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 18,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 18,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 3,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 9,
+"ValueNode" : 3,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 3,
+"SinkId" : 9,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 7,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 7,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 4,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 10,
+"ValueNode" : 4,
+"ValueIndex" : 3,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 4,
+"SinkId" : 9,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 10,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 10,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 4,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 11,
+"ValueNode" : 5,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 5,
+"SinkId" : 10,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 24,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 24,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 21,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 21,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 12,
+"ValueNode" : 6,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 6,
+"SinkId" : 10,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 9,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 9,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 5,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 13,
+"ValueNode" : 5,
+"ValueIndex" : 1,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 5,
+"SinkId" : 11,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 11,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 11,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 14,
+"ValueNode" : 7,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 7,
+"SinkId" : 11,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 19,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 19,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 15,
+"ValueNode" : 5,
+"ValueIndex" : 2,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 5,
+"SinkId" : 12,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 7,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 16,
+"ValueNode" : 8,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 8,
+"SinkId" : 12,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 8,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 8,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 20,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 20,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 7,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 17,
+"ValueNode" : 5,
+"ValueIndex" : 3,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 5,
+"SinkId" : 13,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 3,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 19,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 19,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 22,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 22,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 6,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 6,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 18,
+"ValueNode" : 9,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 9,
+"SinkId" : 13,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 4,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 28,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 28,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 15,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 15,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 14,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 14,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 2,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 17,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 17,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 16,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 6,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 19,
+"ValueNode" : 10,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 10,
+"SinkId" : 14,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 5,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 27,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 27,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 1,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 5,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 5,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 20,
+"ValueNode" : 11,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 11,
+"SinkId" : 14,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 16,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 16,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 21,
+"ValueNode" : 12,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 12,
+"SinkId" : 14,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 7,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 2,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 2,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 17,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 17,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 22,
+"ValueNode" : 13,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 13,
+"SinkId" : 14,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 6,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 0,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 25,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 25,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 23,
+"ValueNode" : 14,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 14,
+"SinkId" : 0,
+"Links" : [
+{
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 1,
+"SinkNodeType" : "DirectMemoryAccess",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 24,
+"ValueNode" : 0,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 0,
+"SinkId" : 15,
+"Links" : [
+{
+"SourceNodeType" : "DirectMemoryAccess",
+"SourceNodeId" : 0,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 1,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 25,
+"ValueNode" : 1,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 1,
+"SinkId" : 16,
+"Links" : [
+{
+"SourceNodeType" : "DirectMemoryAccess",
+"SourceNodeId" : 0,
+"SinkNodeType" : "InputVectorPort",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 26,
+"ValueNode" : 15,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 15,
+"SinkId" : 17,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 1,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 11,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 11,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 3,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 3,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 8,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 27,
+"ValueNode" : 16,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 16,
+"SinkId" : 17,
+"Links" : [
+{
+"SourceNodeType" : "InputVectorPort",
+"SourceNodeId" : 0,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 12,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 12,
+"SinkNodeType" : "ProcessingElement",
+"SinkNodeId" : 8,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 28,
+"ValueNode" : 17,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 17,
+"SinkId" : 18,
+"Links" : [
+{
+"SourceNodeType" : "ProcessingElement",
+"SourceNodeId" : 8,
+"SinkNodeType" : "Switch",
+"SinkNodeId" : 4,
+"StartBit" : 0
+}, {
+"SourceNodeType" : "Switch",
+"SourceNodeId" : 4,
+"SinkNodeType" : "OutputVectorPort",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+},
+{
+"EdgeId" : 29,
+"ValueNode" : 18,
+"ValueIndex" : 0,
+"Bitwidth" : 64,
+"Startbit" : 0,
+"SourceId" : 18,
+"SinkId" : 2,
+"Links" : [
+{
+"SourceNodeType" : "OutputVectorPort",
+"SourceNodeId" : 0,
+"SinkNodeType" : "RecurrenceEngine",
+"SinkNodeId" : 0,
+"StartBit" : 0
+} ]
+}
+]
+}
+]
+}
+]
+}
