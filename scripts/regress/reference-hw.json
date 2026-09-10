@@ -1,0 +1,746 @@
+{
+  "DSAGenNodes" : {
+    "Switch.1" : {
+      "ConfigBitEncode" : {
+        "Enabled" : [ 0, 0 ],
+        "SwitchRouting$_0_SubNet_0" : [ 2, 1 ],
+        "SwitchRouting$_1_SubNet_0" : [ 4, 3 ],
+        "SwitchRouting$_2_SubNet_0" : [ 6, 5 ]
+      },
+      "dsagen2.comp.config.CompKeys$CompNode$" : {
+        "compBits" : 64,
+        "comment" : "",
+        "parameterClassName" : "dsagen2.comp.config.CompNodeParameters",
+        "compUnitBits" : 64,
+        "nodeType" : "Switch",
+        "nodeId" : 1,
+        "supportNodeActive" : true
+      },
+      "dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+        "outputBufferDepth" : 2,
+        "parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+        "staticOutputBuffer" : true
+      },
+      "dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+        "initFullMatrix" : [ ],
+        "parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+        "initIndividualMatrix" : [ ]
+      }
+    },
+    "Switch.0" : {
+      "ConfigBitEncode" : {
+        "Enabled" : [ 0, 0 ],
+        "SwitchRouting$_0_SubNet_0" : [ 3, 1 ],
+        "SwitchRouting$_1_SubNet_0" : [ 6, 4 ],
+        "SwitchRouting$_2_SubNet_0" : [ 9, 7 ],
+        "SwitchRouting$_3_SubNet_0" : [ 12, 10 ]
+      },
+      "dsagen2.comp.config.CompKeys$CompNode$" : {
+        "compBits" : 64,
+        "comment" : "",
+        "parameterClassName" : "dsagen2.comp.config.CompNodeParameters",
+        "compUnitBits" : 64,
+        "nodeType" : "Switch",
+        "nodeId" : 0,
+        "supportNodeActive" : true
+      },
+      "dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+        "outputBufferDepth" : 2,
+        "parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+        "staticOutputBuffer" : true
+      },
+      "dsagen2.comp.config.CompKeys$SwitchRouting$" : {
+        "initFullMatrix" : [ ],
+        "parameterClassName" : "dsagen2.comp.config.switch.SWRoutingParameters",
+        "initIndividualMatrix" : [ ]
+      }
+    },
+    "ProcessingElement.3" : {
+      "ConfigBitEncode" : {
+        "Enabled" : [ 0, 0 ],
+        "Instruction_0_Valid" : [ 1, 1 ],
+        "Instruction_0_OperandSel_0" : [ 4, 2 ],
+        "Instruction_0_OperandSel_1" : [ 7, 5 ],
+        "Instruction_0_CtrlMode" : [ 9, 8 ],
+        "Instruction_0_CtrlInputSel" : [ 11, 10 ],
+        "Instruction_0_Opcode" : [ 13, 12 ],
+        "Instruction_0_ResultOut_0" : [ 15, 14 ],
+        "Instruction_0_ResultReg_0" : [ 16, 16 ],
+        "MetaCtrlEntry_0_valid" : [ 17, 17 ],
+        "MetaCtrlEntry_0_reuseOperand" : [ 19, 18 ],
+        "MetaCtrlEntry_0_discardResult" : [ 20, 20 ],
+        "MetaCtrlEntry_0_resetReg" : [ 21, 21 ],
+        "MetaCtrlEntry_0_abstain" : [ 22, 22 ],
+        "MetaCtrlEntry_1_valid" : [ 23, 23 ],
+        "MetaCtrlEntry_1_reuseOperand" : [ 25, 24 ],
+        "MetaCtrlEntry_1_discardResult" : [ 26, 26 ],
+        "MetaCtrlEntry_1_resetReg" : [ 27, 27 ],
+        "MetaCtrlEntry_1_abstain" : [ 28, 28 ],
+        "MetaCtrlEntry_2_valid" : [ 29, 29 ],
+        "MetaCtrlEntry_2_reuseOperand" : [ 31, 30 ],
+        "MetaCtrlEntry_2_discardResult" : [ 32, 32 ],
+        "MetaCtrlEntry_2_resetReg" : [ 33, 33 ],
+        "MetaCtrlEntry_2_abstain" : [ 34, 34 ],
+        "MetaCtrlEntry_3_valid" : [ 35, 35 ],
+        "MetaCtrlEntry_3_reuseOperand" : [ 37, 36 ],
+        "MetaCtrlEntry_3_discardResult" : [ 38, 38 ],
+        "MetaCtrlEntry_3_resetReg" : [ 39, 39 ],
+        "MetaCtrlEntry_3_abstain" : [ 40, 40 ]
+      },
+      "dsagen2.comp.config.CompKeys$CompNode$" : {
+        "compBits" : 64,
+        "comment" : "",
+        "parameterClassName" : "dsagen2.comp.config.CompNodeParameters",
+        "compUnitBits" : 64,
+        "nodeType" : "ProcessingElement",
+        "nodeId" : 3,
+        "supportNodeActive" : true
+      },
+      "dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+        "outputBufferDepth" : 2,
+        "parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+        "staticOutputBuffer" : false
+      },
+      "dsagen2.comp.config.CompKeys$RegFile$" : {
+        "numReg" : 1,
+        "asyncRF" : true,
+        "update" : true,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+        "resetRegIdx" : [ 0 ]
+      },
+      "dsagen2.comp.config.CompKeys$MetaControl$" : {
+        "outputLSBCtrl" : true,
+        "sizeLUT" : 4,
+        "abstain" : true,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+        "inputLSBCtrl" : true,
+        "reuseOperand" : true,
+        "resetRegister" : true,
+        "discardResult" : true
+      },
+      "dsagen2.comp.config.CompKeys$DsaOperations$" : {
+        "isDynamic" : true,
+        "OperationDataTypeSet" : [ "Copy", "Add_I64", "Mul_I64" ],
+        "maxInstRepeatTime" : 0,
+        "definedLatency" : 0,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+        "instSlotSize" : 1,
+        "maxFifoDepth" : 1
+      }
+    },
+    "ProcessingElement.2" : {
+      "ConfigBitEncode" : {
+        "Enabled" : [ 0, 0 ],
+        "Instruction_0_Valid" : [ 1, 1 ],
+        "Instruction_0_OperandSel_0" : [ 4, 2 ],
+        "Instruction_0_OperandSel_1" : [ 7, 5 ],
+        "Instruction_0_CtrlMode" : [ 9, 8 ],
+        "Instruction_0_CtrlInputSel" : [ 12, 10 ],
+        "Instruction_0_Opcode" : [ 14, 13 ],
+        "Instruction_0_ResultOut_0" : [ 16, 15 ],
+        "Instruction_0_ResultReg_0" : [ 17, 17 ],
+        "Instruction_0_Latency" : [ 19, 18 ],
+        "MetaCtrlEntry_0_valid" : [ 20, 20 ],
+        "MetaCtrlEntry_0_reuseOperand" : [ 22, 21 ],
+        "MetaCtrlEntry_0_discardResult" : [ 23, 23 ],
+        "MetaCtrlEntry_0_resetReg" : [ 24, 24 ],
+        "MetaCtrlEntry_0_abstain" : [ 25, 25 ],
+        "MetaCtrlEntry_1_valid" : [ 26, 26 ],
+        "MetaCtrlEntry_1_reuseOperand" : [ 28, 27 ],
+        "MetaCtrlEntry_1_discardResult" : [ 29, 29 ],
+        "MetaCtrlEntry_1_resetReg" : [ 30, 30 ],
+        "MetaCtrlEntry_1_abstain" : [ 31, 31 ],
+        "MetaCtrlEntry_2_valid" : [ 32, 32 ],
+        "MetaCtrlEntry_2_reuseOperand" : [ 34, 33 ],
+        "MetaCtrlEntry_2_discardResult" : [ 35, 35 ],
+        "MetaCtrlEntry_2_resetReg" : [ 36, 36 ],
+        "MetaCtrlEntry_2_abstain" : [ 37, 37 ],
+        "MetaCtrlEntry_3_valid" : [ 38, 38 ],
+        "MetaCtrlEntry_3_reuseOperand" : [ 40, 39 ],
+        "MetaCtrlEntry_3_discardResult" : [ 41, 41 ],
+        "MetaCtrlEntry_3_resetReg" : [ 42, 42 ],
+        "MetaCtrlEntry_3_abstain" : [ 43, 43 ]
+      },
+      "dsagen2.comp.config.CompKeys$CompNode$" : {
+        "compBits" : 64,
+        "comment" : "",
+        "parameterClassName" : "dsagen2.comp.config.CompNodeParameters",
+        "compUnitBits" : 64,
+        "nodeType" : "ProcessingElement",
+        "nodeId" : 2,
+        "supportNodeActive" : true
+      },
+      "dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+        "outputBufferDepth" : 2,
+        "parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+        "staticOutputBuffer" : false
+      },
+      "dsagen2.comp.config.CompKeys$RegFile$" : {
+        "numReg" : 1,
+        "asyncRF" : true,
+        "update" : true,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+        "resetRegIdx" : [ 0 ]
+      },
+      "dsagen2.comp.config.CompKeys$MetaControl$" : {
+        "outputLSBCtrl" : true,
+        "sizeLUT" : 4,
+        "abstain" : true,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+        "inputLSBCtrl" : true,
+        "reuseOperand" : true,
+        "resetRegister" : true,
+        "discardResult" : true
+      },
+      "dsagen2.comp.config.CompKeys$DsaOperations$" : {
+        "isDynamic" : true,
+        "OperationDataTypeSet" : [ "Copy", "Add_I64", "FAdd_D64" ],
+        "maxInstRepeatTime" : 0,
+        "definedLatency" : 0,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+        "instSlotSize" : 1,
+        "maxFifoDepth" : 7
+      }
+    },
+    "ProcessingElement.1" : {
+      "ConfigBitEncode" : {
+        "Enabled" : [ 0, 0 ],
+        "Instruction_0_Valid" : [ 1, 1 ],
+        "Instruction_0_OperandSel_0" : [ 4, 2 ],
+        "Instruction_0_OperandSel_1" : [ 7, 5 ],
+        "Instruction_0_CtrlMode" : [ 9, 8 ],
+        "Instruction_0_CtrlInputSel" : [ 11, 10 ],
+        "Instruction_0_Opcode" : [ 12, 12 ],
+        "Instruction_0_ResultOut_0" : [ 14, 13 ],
+        "Instruction_0_ResultReg_0" : [ 15, 15 ],
+        "MetaCtrlEntry_0_valid" : [ 16, 16 ],
+        "MetaCtrlEntry_0_reuseOperand" : [ 18, 17 ],
+        "MetaCtrlEntry_0_discardResult" : [ 19, 19 ],
+        "MetaCtrlEntry_0_resetReg" : [ 20, 20 ],
+        "MetaCtrlEntry_0_abstain" : [ 21, 21 ],
+        "MetaCtrlEntry_1_valid" : [ 22, 22 ],
+        "MetaCtrlEntry_1_reuseOperand" : [ 24, 23 ],
+        "MetaCtrlEntry_1_discardResult" : [ 25, 25 ],
+        "MetaCtrlEntry_1_resetReg" : [ 26, 26 ],
+        "MetaCtrlEntry_1_abstain" : [ 27, 27 ],
+        "MetaCtrlEntry_2_valid" : [ 28, 28 ],
+        "MetaCtrlEntry_2_reuseOperand" : [ 30, 29 ],
+        "MetaCtrlEntry_2_discardResult" : [ 31, 31 ],
+        "MetaCtrlEntry_2_resetReg" : [ 32, 32 ],
+        "MetaCtrlEntry_2_abstain" : [ 33, 33 ],
+        "MetaCtrlEntry_3_valid" : [ 34, 34 ],
+        "MetaCtrlEntry_3_reuseOperand" : [ 36, 35 ],
+        "MetaCtrlEntry_3_discardResult" : [ 37, 37 ],
+        "MetaCtrlEntry_3_resetReg" : [ 38, 38 ],
+        "MetaCtrlEntry_3_abstain" : [ 39, 39 ]
+      },
+      "dsagen2.comp.config.CompKeys$CompNode$" : {
+        "compBits" : 64,
+        "comment" : "",
+        "parameterClassName" : "dsagen2.comp.config.CompNodeParameters",
+        "compUnitBits" : 64,
+        "nodeType" : "ProcessingElement",
+        "nodeId" : 1,
+        "supportNodeActive" : true
+      },
+      "dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+        "outputBufferDepth" : 2,
+        "parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+        "staticOutputBuffer" : false
+      },
+      "dsagen2.comp.config.CompKeys$RegFile$" : {
+        "numReg" : 1,
+        "asyncRF" : true,
+        "update" : true,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+        "resetRegIdx" : [ 0 ]
+      },
+      "dsagen2.comp.config.CompKeys$MetaControl$" : {
+        "outputLSBCtrl" : true,
+        "sizeLUT" : 4,
+        "abstain" : true,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+        "inputLSBCtrl" : true,
+        "reuseOperand" : true,
+        "resetRegister" : true,
+        "discardResult" : true
+      },
+      "dsagen2.comp.config.CompKeys$DsaOperations$" : {
+        "isDynamic" : true,
+        "OperationDataTypeSet" : [ "Copy", "Add_I64" ],
+        "maxInstRepeatTime" : 0,
+        "definedLatency" : 0,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+        "instSlotSize" : 1,
+        "maxFifoDepth" : 1
+      }
+    },
+    "ProcessingElement.0" : {
+      "ConfigBitEncode" : {
+        "Enabled" : [ 0, 0 ],
+        "Instruction_0_Valid" : [ 1, 1 ],
+        "Instruction_0_OperandSel_0" : [ 4, 2 ],
+        "Instruction_0_OperandSel_1" : [ 7, 5 ],
+        "Instruction_0_CtrlMode" : [ 9, 8 ],
+        "Instruction_0_CtrlInputSel" : [ 12, 10 ],
+        "Instruction_0_Opcode" : [ 14, 13 ],
+        "Instruction_0_ResultOut_0" : [ 16, 15 ],
+        "Instruction_0_ResultReg_0" : [ 17, 17 ],
+        "Instruction_0_Latency" : [ 19, 18 ],
+        "MetaCtrlEntry_0_valid" : [ 20, 20 ],
+        "MetaCtrlEntry_0_reuseOperand" : [ 22, 21 ],
+        "MetaCtrlEntry_0_discardResult" : [ 23, 23 ],
+        "MetaCtrlEntry_0_resetReg" : [ 24, 24 ],
+        "MetaCtrlEntry_0_abstain" : [ 25, 25 ],
+        "MetaCtrlEntry_1_valid" : [ 26, 26 ],
+        "MetaCtrlEntry_1_reuseOperand" : [ 28, 27 ],
+        "MetaCtrlEntry_1_discardResult" : [ 29, 29 ],
+        "MetaCtrlEntry_1_resetReg" : [ 30, 30 ],
+        "MetaCtrlEntry_1_abstain" : [ 31, 31 ],
+        "MetaCtrlEntry_2_valid" : [ 32, 32 ],
+        "MetaCtrlEntry_2_reuseOperand" : [ 34, 33 ],
+        "MetaCtrlEntry_2_discardResult" : [ 35, 35 ],
+        "MetaCtrlEntry_2_resetReg" : [ 36, 36 ],
+        "MetaCtrlEntry_2_abstain" : [ 37, 37 ],
+        "MetaCtrlEntry_3_valid" : [ 38, 38 ],
+        "MetaCtrlEntry_3_reuseOperand" : [ 40, 39 ],
+        "MetaCtrlEntry_3_discardResult" : [ 41, 41 ],
+        "MetaCtrlEntry_3_resetReg" : [ 42, 42 ],
+        "MetaCtrlEntry_3_abstain" : [ 43, 43 ]
+      },
+      "dsagen2.comp.config.CompKeys$CompNode$" : {
+        "compBits" : 64,
+        "comment" : "",
+        "parameterClassName" : "dsagen2.comp.config.CompNodeParameters",
+        "compUnitBits" : 64,
+        "nodeType" : "ProcessingElement",
+        "nodeId" : 0,
+        "supportNodeActive" : true
+      },
+      "dsagen2.comp.config.CompKeys$OutputBuffer$" : {
+        "outputBufferDepth" : 2,
+        "parameterClassName" : "dsagen2.comp.config.common.CompNodeOutputBufferParameters",
+        "staticOutputBuffer" : false
+      },
+      "dsagen2.comp.config.CompKeys$RegFile$" : {
+        "numReg" : 1,
+        "asyncRF" : true,
+        "update" : true,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PERegFileParameters",
+        "resetRegIdx" : [ 0 ]
+      },
+      "dsagen2.comp.config.CompKeys$MetaControl$" : {
+        "outputLSBCtrl" : true,
+        "sizeLUT" : 4,
+        "abstain" : true,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PEMetaCtrlParameters",
+        "inputLSBCtrl" : true,
+        "reuseOperand" : true,
+        "resetRegister" : true,
+        "discardResult" : true
+      },
+      "dsagen2.comp.config.CompKeys$DsaOperations$" : {
+        "isDynamic" : true,
+        "OperationDataTypeSet" : [ "Copy", "Add_I64", "FAdd_D64", "Mul_I64" ],
+        "maxInstRepeatTime" : 0,
+        "definedLatency" : 0,
+        "parameterClassName" : "dsagen2.comp.config.processing_element.PEDsaOperationParameters",
+        "instSlotSize" : 1,
+        "maxFifoDepth" : 18
+      }
+    },
+    "DirectMemoryAccess.0" : {
+      "dsagen2.mem.config.MemKeys$MemNode$" : {
+        "numWrite" : 1,
+        "memUnitBits" : 8,
+        "numRead" : 1,
+        "MaxLength1D" : 2147483646,
+        "parameterClassName" : "dsagen2.mem.config.MemNodeParameters",
+        "MaxLength3D" : 0,
+        "capacity" : 1099511627776,
+        "LinearLength1DStream" : true,
+        "numGenDataType" : 0,
+        "LinearPadding" : true,
+        "MaxAbsStretch3D2D" : 0,
+        "NumLength1DUnitBitsExp" : 4,
+        "MaxAbsStride3D" : 0,
+        "MaxAbsStride1D" : 1,
+        "IndirectStride2DStream" : true,
+        "AtomicOperations" : [ "Add", "Sub", "Min", "Max" ],
+        "NumIdxUnitBitsExp" : 4,
+        "MaxAbsDeltaStride2D" : 0,
+        "LinearStride2DStream" : true,
+        "MaxLength2D" : 2147483646,
+        "MaxAbsStretch2D" : 1073741822,
+        "nodeType" : "DirectMemoryAccess",
+        "supportBuffet" : false,
+        "numMemUnitBitsExp" : 4,
+        "MaxAbsStretch3D1D" : 0,
+        "IndirectIndexStream" : true,
+        "NumStride2DUnitBitsExp" : 4,
+        "writeWidth" : 16,
+        "MaxAbsStride2D" : 1073741822,
+        "numPendingRequest" : 16,
+        "readWidth" : 16,
+        "nodeId" : 0,
+        "streamStated" : true,
+        "numSpmBank" : 0,
+        "IndirectLength1DStream" : true,
+        "MaxAbsDeltaStretch2D" : 0
+      }
+    },
+    "ScratchpadMemory.0" : {
+      "dsagen2.mem.config.MemKeys$MemNode$" : {
+        "numWrite" : 1,
+        "memUnitBits" : 8,
+        "numRead" : 1,
+        "MaxLength1D" : 2147483646,
+        "parameterClassName" : "dsagen2.mem.config.MemNodeParameters",
+        "MaxLength3D" : 0,
+        "capacity" : 256,
+        "LinearLength1DStream" : true,
+        "numGenDataType" : 0,
+        "LinearPadding" : true,
+        "MaxAbsStretch3D2D" : 0,
+        "NumLength1DUnitBitsExp" : 4,
+        "MaxAbsStride3D" : 0,
+        "MaxAbsStride1D" : 1,
+        "IndirectStride2DStream" : true,
+        "AtomicOperations" : [ ],
+        "NumIdxUnitBitsExp" : 4,
+        "MaxAbsDeltaStride2D" : 0,
+        "LinearStride2DStream" : true,
+        "MaxLength2D" : 2147483646,
+        "MaxAbsStretch2D" : 1073741822,
+        "nodeType" : "ScratchpadMemory",
+        "supportBuffet" : false,
+        "numMemUnitBitsExp" : 4,
+        "MaxAbsStretch3D1D" : 0,
+        "IndirectIndexStream" : true,
+        "NumStride2DUnitBitsExp" : 4,
+        "writeWidth" : 8,
+        "MaxAbsStride2D" : 1073741822,
+        "numPendingRequest" : 16,
+        "readWidth" : 8,
+        "nodeId" : 0,
+        "streamStated" : true,
+        "numSpmBank" : 4,
+        "IndirectLength1DStream" : true,
+        "MaxAbsDeltaStretch2D" : 0
+      }
+    },
+    "InputVectorPort.2" : {
+      "dsagen2.sync.config.SyncKeys$IVPNode$" : {
+        "vpImpl" : 0,
+        "vpStated" : true,
+        "parameterClassName" : "dsagen2.sync.config.IVPNodeParameters",
+        "depthByte" : 2,
+        "nodeType" : "InputVectorPort",
+        "repeatedIVP" : true,
+        "nodeId" : 2,
+        "broadcastIVP" : true
+      }
+    },
+    "InputVectorPort.1" : {
+      "dsagen2.sync.config.SyncKeys$IVPNode$" : {
+        "vpImpl" : 0,
+        "vpStated" : true,
+        "parameterClassName" : "dsagen2.sync.config.IVPNodeParameters",
+        "depthByte" : 2,
+        "nodeType" : "InputVectorPort",
+        "repeatedIVP" : true,
+        "nodeId" : 1,
+        "broadcastIVP" : true
+      }
+    },
+    "InputVectorPort.0" : {
+      "dsagen2.sync.config.SyncKeys$IVPNode$" : {
+        "vpImpl" : 0,
+        "vpStated" : true,
+        "parameterClassName" : "dsagen2.sync.config.IVPNodeParameters",
+        "depthByte" : 2,
+        "nodeType" : "InputVectorPort",
+        "repeatedIVP" : true,
+        "nodeId" : 0,
+        "broadcastIVP" : true
+      }
+    },
+    "OutputVectorPort.1" : {
+      "dsagen2.sync.config.SyncKeys$OVPNode$" : {
+        "vpImpl" : 2,
+        "discardOVP" : false,
+        "vpStated" : false,
+        "parameterClassName" : "dsagen2.sync.config.OVPNodeParameters",
+        "taskOVP" : false,
+        "depthByte" : 16,
+        "nodeType" : "OutputVectorPort",
+        "nodeId" : 1
+      }
+    },
+    "OutputVectorPort.0" : {
+      "dsagen2.sync.config.SyncKeys$OVPNode$" : {
+        "vpImpl" : 2,
+        "discardOVP" : false,
+        "vpStated" : false,
+        "parameterClassName" : "dsagen2.sync.config.OVPNodeParameters",
+        "taskOVP" : false,
+        "depthByte" : 16,
+        "nodeType" : "OutputVectorPort",
+        "nodeId" : 0
+      }
+    }
+  },
+  "DSAGenEdges" : [ {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "DirectMemoryAccess",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "InputVectorPort",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "ProcessingElement",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "OutputVectorPort",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "OutputVectorPort",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "DirectMemoryAccess",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 1,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "DirectMemoryAccess",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "InputVectorPort",
+    "SinkNodeId" : 1,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "ScratchpadMemory",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "InputVectorPort",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "ProcessingElement",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "OutputVectorPort",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "OutputVectorPort",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "ScratchpadMemory",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "OutputVectorPort",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "DirectMemoryAccess",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 3,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 2,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 2
+  }, {
+    "SourceNodeType" : "ProcessingElement",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 1,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 2,
+    "SinkNodeType" : "Switch",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "DirectMemoryAccess",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 2,
+    "SinkNodeType" : "InputVectorPort",
+    "SinkNodeId" : 2,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "ScratchpadMemory",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "InputVectorPort",
+    "SinkNodeId" : 1,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "ProcessingElement",
+    "SourceNodeId" : 2,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "OutputVectorPort",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 2
+  }, {
+    "SourceNodeType" : "OutputVectorPort",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "ScratchpadMemory",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 2,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 2,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "Switch",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 3
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 2,
+    "SinkNodeType" : "Switch",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 3,
+    "SinkNodeType" : "Switch",
+    "SinkNodeId" : 1,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "ScratchpadMemory",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 2,
+    "SinkNodeType" : "InputVectorPort",
+    "SinkNodeId" : 2,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "Switch",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "OutputVectorPort",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 3
+  }, {
+    "SourceNodeType" : "ProcessingElement",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 2,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 2,
+    "SourceIndex" : 2,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 3,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "Switch",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 1,
+    "SinkIndex" : 2
+  }, {
+    "SourceNodeType" : "ProcessingElement",
+    "SourceNodeId" : 2,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "Switch",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 2
+  }, {
+    "SourceNodeType" : "Switch",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "OutputVectorPort",
+    "SinkNodeId" : 1,
+    "SinkIndex" : 0
+  }, {
+    "SourceNodeType" : "InputVectorPort",
+    "SourceNodeId" : 2,
+    "SourceIndex" : 3,
+    "SinkNodeType" : "Switch",
+    "SinkNodeId" : 1,
+    "SinkIndex" : 1
+  }, {
+    "SourceNodeType" : "ProcessingElement",
+    "SourceNodeId" : 3,
+    "SourceIndex" : 0,
+    "SinkNodeType" : "Switch",
+    "SinkNodeId" : 0,
+    "SinkIndex" : 3
+  }, {
+    "SourceNodeType" : "Switch",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 2,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 2,
+    "SinkIndex" : 2
+  }, {
+    "SourceNodeType" : "ProcessingElement",
+    "SourceNodeId" : 3,
+    "SourceIndex" : 1,
+    "SinkNodeType" : "Switch",
+    "SinkNodeId" : 1,
+    "SinkIndex" : 2
+  }, {
+    "SourceNodeType" : "Switch",
+    "SourceNodeId" : 0,
+    "SourceIndex" : 3,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 3,
+    "SinkIndex" : 2
+  }, {
+    "SourceNodeType" : "Switch",
+    "SourceNodeId" : 1,
+    "SourceIndex" : 2,
+    "SinkNodeType" : "ProcessingElement",
+    "SinkNodeId" : 2,
+    "SinkIndex" : 3
+  } ]
+}
