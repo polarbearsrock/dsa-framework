@@ -33,6 +33,10 @@ rm -rf "$CY/sims/verilator/generated-src/chipyard.TestHarness.DSAGenRocketConfig
 ( cd "$CY" && $TS make -C sims/verilator CONFIG=DSAGenRocketConfig ADG="$ADG" ) > "$OUT/build.log" 2>&1 || { log "build failed, see $OUT/build.log"; exit 3; }
 [ -f "$HW" ] || { log "print-back $HW missing"; exit 3; }
 # ---- 3. compile ----
+# Mappings are saved per (DFG, ADG contents) under $OUT/mappings so that recompiling
+# a kernel for the same ADG reproduces the same bitstream (the annealer is otherwise
+# not reproducible even with a fixed seed).
+export DSA_MAPPING_DIR="$OUT/mappings"
 compile_one() {  # <dir> <kernel>   (same seed retry as the gate: SEED reaches ss_sched through the DSA pass)
   for seed in 1 2 3; do
     ( cd "$ROOT/dsa-apps/compiled/$1" && rm -f ss-$2.riscv ss-$2.o ss-$2.s ss-$2.ll $2.ll ${2}_*.dfg.bits.h ${2}_*.dfg.h &&

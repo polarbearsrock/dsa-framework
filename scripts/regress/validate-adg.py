@@ -84,6 +84,8 @@ for k,v in cand['DSAGenNodes'].items():
     if k.startswith('OutputVectorPort'):
         vp=[b for b in blocks if 'vpStated' in b]
         if vp and vp[0]['vpStated'] and indeg[k]<2: print(f"  RULE: {k} is stated but has {indeg[k]} compute input(s)"); problems+=1
+        # the compiler's output streams always carry stream state: an unstated OVP drops every other vector (matadd/solver on reg1-reg3)
+        if vp and not vp[0]['vpStated']: print(f"  RULE: {k} is not stated (unstated OVPs corrupt output streams on RTL)"); problems+=1
     if k.startswith('ScratchpadMemory'):
         m=[b for b in blocks if 'readWidth' in b]
         if m and m[0]['readWidth']<32: print(f"  RULE: {k} bus width {m[0]['readWidth']} B < 32 B corrupted results on RTL"); problems+=1

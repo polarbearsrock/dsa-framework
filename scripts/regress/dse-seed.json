@@ -6225,8 +6225,7 @@
         "streamStated": true,
         "numSpmBank": 0,
         "IndirectLength1DStream": false,
-        "MaxAbsDeltaStretch2D": 0,
-        "supportBuffet": false
+        "MaxAbsDeltaStretch2D": 0
       }
     },
     "RegisterEngine.0": {
@@ -6265,8 +6264,7 @@
         "streamStated": true,
         "numSpmBank": 0,
         "IndirectLength1DStream": false,
-        "MaxAbsDeltaStretch2D": 0,
-        "supportBuffet": false
+        "MaxAbsDeltaStretch2D": 0
       }
     },
     "GenerateEngine.0": {
@@ -6305,8 +6303,7 @@
         "streamStated": true,
         "numSpmBank": 0,
         "IndirectLength1DStream": true,
-        "MaxAbsDeltaStretch2D": 0,
-        "supportBuffet": false
+        "MaxAbsDeltaStretch2D": 0
       }
     },
     "ScratchpadMemory.0": {
@@ -6345,8 +6342,7 @@
         "streamStated": true,
         "numSpmBank": 4,
         "IndirectLength1DStream": true,
-        "MaxAbsDeltaStretch2D": 0,
-        "supportBuffet": false
+        "MaxAbsDeltaStretch2D": 0
       }
     },
     "DirectMemoryAccess.0": {
@@ -6390,8 +6386,7 @@
         "streamStated": true,
         "numSpmBank": 0,
         "IndirectLength1DStream": true,
-        "MaxAbsDeltaStretch2D": 0,
-        "supportBuffet": false
+        "MaxAbsDeltaStretch2D": 0
       }
     },
     "InputVectorPort.6": {
